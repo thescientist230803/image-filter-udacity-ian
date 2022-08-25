@@ -31,7 +31,7 @@ import {Router,Response,Request,} from 'express';
 
   /**************************************************************************** */
 
-  app.get( ' /filteredimage' , async (req: Request , res: Response) => {
+  app.get('/filteredimage', async (req: Request, res: Response) => {
     const image_url = req.query.image_url.toString();
 
     if(!image_url){
